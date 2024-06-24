@@ -2,18 +2,17 @@ import { CARD_DATA } from '../Data/cardData';
 
 function Card() {
     return (
-        <div className="row">test
+        <div className="card_wrapper">
             {CARD_DATA.map((section) => (
                 <div key={section.id} className="">
                     <div className="card">
-                        <img src={section.imageUrl} alt={section.name} />
-                        <section className="section dark">
-                            <h5 className="strong">
-                                <strong>{section.name}</strong>
-                            </h5>
+                        <section className="card_info">
+                            <h1 className="card_title">{section.title}</h1>
+                            <h3>{section.subtitle}</h3>
                             <p>{section.description}</p>
-                            <p>Budget : {section.budget.toLocaleString()}</p>
                         </section>
+                        <img src={section.imageUrl} alt="" />
+
                     </div>
                 </div>
             ))}
