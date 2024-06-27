@@ -1,0 +1,55 @@
+$white: #FFFFFF;
+$tmrs-blue: #114E99;
+$blue-semi-light: #0076FF;
+$blue-light: #CBE1F9;
+$blue-lighter: #E8EDF2;
+$blue-lightest: #EEF5FF;
+$blue-dark: #073973;
+$tmrs-red: #D71F27;
+$gray: #B3B3B3;
+$gray-light: #BFBFBF;
+$gray-lighter: #DCE1EB;
+$gray-lightest: #F8F9FA;
+$gray-dark: #586778;
+$gray-darker: #484848;
+$black: #000000;
+
+$gradient-blue-dark: linear-gradient(173deg, $blue-semi-light 3.17%, $blue-dark 78.22%);
+
+$time-slow: 0.5s;
+$time-normal: 0.35s;
+$time-fast: 0.15s;
+
+$weight-light: 200;
+$weight-semi-light: 300;
+$weight-normal: 500;
+$weight-semi-bold: 600;
+$weight-bold: 700;
+$weight-black: 800;
+
+$default-font-size: 16px;
+$font-xs: 0.5rem;
+$font-s: 0.85rem;
+$font-m: 1rem;
+$font-l: 1.25rem;
+$font-xl: 1.5rem;
+
+
+$media-xxs: 360px;
+$media-xs: 640px;
+$media-s: 768px;
+$media-m: 1024px;
+$media-l: 1280px;
+$media-xl: 1440px;
+
+.is {
+    &-hidden {
+        display: none;
+    }
+
+    &-disabled {
+        @mixin media-suffixes {
+            opacity: 0.5;
+        }
+    }
+}

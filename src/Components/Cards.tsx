@@ -2,12 +2,12 @@ import Card from './Card'
 
 type Props = {}
 
-const Sections = (props: Props) => {
+const Cards = (props: Props) => {
     return (
-        <div className='sections'>
+        <div className='cards'>
             < Card />
         </div>
     )
 }
 
-export default Sections
+export default Cards

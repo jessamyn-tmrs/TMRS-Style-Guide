@@ -1,0 +1,38 @@
+@import '../Base/_variables.scss';
+
+// sidebar
+.sidebar {
+    &_wrap {
+        background: $blue-dark;
+        color: $blue-light;
+        font-weight: $weight-light;
+        min-width: 200px;
+        padding: 10px 0 0 63px;
+        width: 227px;
+    }
+
+    p {
+        margin: 15px 0 3px 0;
+    }
+
+    li:before {
+        content: "\f111";
+        display: inline-block;
+        font-family: "Font Awesome 5 Free";
+        font-size: 8px;
+        font-weight: 400;
+        padding: 0 13px 0 1px;
+        vertical-align: middle;
+    }
+
+    i:after {
+        content: "\7c";
+        display: block;
+        font-family: "Font Awesome 5 Free";
+        font-size: 15px;
+        font-weight: 700;
+        line-height: 7px;
+        padding: 0 0 0 3px;
+
+    }
+}

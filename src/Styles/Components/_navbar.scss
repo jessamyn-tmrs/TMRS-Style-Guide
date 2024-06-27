@@ -1,0 +1,33 @@
+@import '../Base/_variables.scss';
+
+// navbar
+.navbar {
+    background-color: $gray-lightest;
+    color: $tmrs-blue;
+    display: flex;
+    height: 55px;
+
+    &_list {
+        align-items: center;
+        display: flex;
+        flex-direction: row;
+        padding: 0 63px;
+        width: 100%;
+
+        &-logo {
+            img {
+                align-items: flex-start;
+                width: 90px;
+            }
+        }
+
+        &-cards {
+            display: flex;
+            justify-content: space-between;
+
+            li {
+                padding-left: 55px;
+            }
+        }
+    }
+}

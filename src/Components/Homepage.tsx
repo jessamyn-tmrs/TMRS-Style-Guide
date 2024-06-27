@@ -1,7 +1,6 @@
 import Navbar from './Navbar';
 import Sidebar from './Sidebar';
-import Card from './Card';
-import Sections from './Sections';
+import Cards from './Cards';
 
 type Props = {}
 
@@ -9,12 +8,12 @@ const Homepage = (props: Props) => {
     return (
         <div className='homepage'>
             <Navbar />
-            <div className='homepage_main'>
-                <div className='sidebar_wrapper'>
+            <div className='homepage_wrap'>
+                <div className='sidebar_wrap'>
                     <Sidebar />
                 </div>
-                <div className='section_wrapper'>
-                    <Sections />
+                <div className='cards_wrap'>
+                    <Cards />
                 </div>
             </div>
 

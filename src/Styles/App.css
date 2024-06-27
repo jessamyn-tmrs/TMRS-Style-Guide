@@ -11,7 +11,6 @@ body {
   height: 100%;
   margin: 0;
   overflow-x: hidden;
-  overflow-y: hidden;
   padding: 0;
   width: 100%;
   -webkit-font-smoothing: antialiased;
@@ -43,14 +42,63 @@ li {
   padding-inline-start: 0;
 }
 
-.homepage {
-  height: 100vh;
-  width: 100vw;
+.is-hidden {
+  display: none;
 }
-.homepage_main {
+.is-hidden {
+  display: none;
+}
+.cards_wrap {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin: 30px;
+}
+.cards .card {
+  align-items: flex-start;
+  background-color: #FFFFFF;
+  border-radius: 10px;
+  display: flex;
+  justify-content: flex-start;
+  margin: 15px;
+  padding: 15px;
+}
+.cards .card h1,
+.cards .card h3,
+.cards .card p {
+  margin: 0;
+  padding: 0;
+}
+.cards .card img {
+  width: 100px;
+}
+.cards .card_wrap {
+  max-width: 700px;
+}
+.cards .card_images {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 15px;
+}
+.cards .card_images li {
+  padding: 5px;
+}
+
+.is-hidden {
+  display: none;
+}
+.homepage {
+  height: 100%;
+  width: 100%;
+}
+.homepage_wrap {
   display: flex;
 }
 
+.is-hidden {
+  display: none;
+}
 .navbar {
   background-color: #F8F9FA;
   color: #114E99;
@@ -76,11 +124,13 @@ li {
   padding-left: 55px;
 }
 
-.sidebar_wrapper {
-  background: linear-gradient(173deg, #0076FF 3.17%, #0F4F99 78.22%);
+.is-hidden {
+  display: none;
+}
+.sidebar_wrap {
+  background: #073973;
   color: #CBE1F9;
   font-weight: 200;
-  height: 100vh;
   min-width: 200px;
   padding: 10px 0 0 63px;
   width: 227px;
@@ -105,36 +155,6 @@ li {
   font-weight: 700;
   line-height: 7px;
   padding: 0 0 0 3px;
-}
-
-.section {
-  align-items: flex-start;
-  display: flex;
-  flex-direction: column;
-  height: 100%;
-  justify-content: flex-start;
-  margin: 30px;
-  width: 100%;
-}
-.section_card {
-  align-items: flex-start;
-  background-color: #FFFFFF;
-  border-radius: 10px;
-  display: flex;
-  flex-direction: column;
-  height: 100%;
-  justify-content: flex-start;
-  max-width: 500px;
-  min-height: 500px;
-  margin: 15px;
-  padding: 15px;
-  width: 70%;
-}
-.section_card h1,
-.section_card h3,
-.section_card h5 {
-  margin: 0;
-  padding: 0;
 }
 
 /*# sourceMappingURL=App.css.map */

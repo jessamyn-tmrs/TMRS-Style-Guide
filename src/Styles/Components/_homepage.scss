@@ -1,0 +1,11 @@
+@import '../Base/_variables.scss';
+
+// homepage
+.homepage {
+    height: 100%;
+    width: 100%;
+
+    &_wrap {
+        display: flex;
+    }
+}

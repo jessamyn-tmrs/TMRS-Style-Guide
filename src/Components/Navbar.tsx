@@ -1,4 +1,5 @@
-import logo from '../Assets/tmrs-logo.svg';
+import sprite from "../Assets/sprite.svg";
+import logo from "../Assets/tmrs-logo.svg";
 
 type Props = {}
 const home: string = "/";
@@ -11,7 +12,7 @@ const Navbar = (props: Props) => {
             <ul className='navbar_list'>
                 <li className='navbar_list-logo'>
                     <a href={home}>
-                        <img src={logo} alt="TMRS logo" />
+                        <img src={`${logo}`} alt="TMRS logo" />
                     </a>
                 </li>
                 <ul className='navbar_list-cards'>
