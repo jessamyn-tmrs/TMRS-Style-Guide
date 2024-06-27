@@ -1,4 +1,3 @@
-import sprite from "../Assets/sprite.svg";
 import logo from "../Assets/tmrs-logo.svg";
 
 type Props = {}
