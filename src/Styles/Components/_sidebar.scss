@@ -2,10 +2,12 @@
 
 // sidebar
 .sidebar {
+
     &_wrap {
         background: $blue-dark;
         color: $blue-light;
         font-weight: $weight-light;
+        height: 500px;
         min-width: 200px;
         padding: 10px 0 0 63px;
         width: 227px;
@@ -25,14 +27,19 @@
         vertical-align: middle;
     }
 
-    i:after {
-        content: "\7c";
-        display: block;
-        font-family: "Font Awesome 5 Free";
-        font-size: 15px;
-        font-weight: 700;
-        line-height: 7px;
-        padding: 0 0 0 3px;
+    i {
+        &::after {
+            content: "\7c";
+            display: block;
+            font-family: "Font Awesome 5 Free";
+            font-size: 15px;
+            font-weight: 700;
+            line-height: 7px;
+            padding: 0 0 0 3px;
+        }
 
+        &:last-child:after {
+            content: "";
+        }
     }
 }

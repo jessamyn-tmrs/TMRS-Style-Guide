@@ -15,8 +15,8 @@ function Card() {
     return (
         <div className="card_wrap">
             {CARD_DATA.map((card) => (
-                <div key={card.id} className="card">
-                    <div className="">
+                <div key={card.id} className="card" id={card.name}>
+                    <div className="card_inner">
                         <section className="card_info">
                             <h1 className="card_title">{card.title}</h1>
                             <h3>{card.subtitle}</h3>
