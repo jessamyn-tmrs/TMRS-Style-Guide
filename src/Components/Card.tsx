@@ -1,15 +1,5 @@
 import { CARD_DATA } from '../Data/cardData';
 
-// search and map all asset files
-const images: any = require.context("../Assets", true);
-const imageList: any = images.keys().map((str: string) => images(str));
-
-// filter asset files to match url set in card data for img source
-let imageFilter = (arg: string) => {
-    let filter: string = imageList.filter((color: string) => color.match((arg)));
-    return filter[0]
-}
-
 // map through and display card info from card data
 function Card() {
     return (
@@ -26,7 +16,7 @@ function Card() {
                             {card.images.map((item) => (
                                 <li >
                                     <img
-                                        src={imageFilter(item.url)}
+                                        src={`/src/Assets/${(item.url)}.svg`}
                                         alt={item.alt}
                                     />
                                 </li>
@@ -35,7 +25,7 @@ function Card() {
                     </div>
                 </div>
             ))}
-        </div>
+        </div >
     );
 }
 

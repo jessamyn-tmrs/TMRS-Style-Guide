@@ -1,9 +1,8 @@
-import React from 'react';
 import { render, screen } from '@testing-library/react';
-import App from '../Components/App';
+import App from "../App.tsx";
 
-test('renders learn react link', () => {
-  render(<App />);
-  const linkElement = screen.getByText(/learn react/i);
-  expect(linkElement).toBeInTheDocument();
+it("should display nav bar link 'Web Components'", () => {
+    render(<App />);
+    const message = screen.queryByText(/web components/i);
+    expect(message).toBeVisible()
 });

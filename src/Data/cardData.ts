@@ -10,27 +10,27 @@ export const CARD_DATA = [
       "hover over each color square to see the hex code, click on a color square to copy the hex number.",
     images: [
       {
-        url: "blue-dark",
+        url: "Colors/blue-dark",
         alt: "",
       },
       {
-        url: "blue-tmrs",
+        url: "Colors/blue-tmrs",
         alt: "",
       },
       {
-        url: "blue-semi-light",
+        url: "Colors/blue-semi-light",
         alt: "",
       },
       {
-        url: "blue-light",
+        url: "Colors/blue-light",
         alt: "",
       },
       {
-        url: "blue-lighter",
+        url: "Colors/blue-lighter",
         alt: "",
       },
       {
-        url: "blue-lightest",
+        url: "Colors/blue-lightest",
         alt: "",
       },
       {
@@ -79,7 +79,7 @@ export const CARD_DATA = [
     description: "hover over each...",
     images: [
       {
-        url: "blue-dark",
+        url: "Colors/blue-dark",
         alt: "dark blue square",
       },
     ],
@@ -92,7 +92,7 @@ export const CARD_DATA = [
     description: "hover over each...",
     images: [
       {
-        url: "blue-dark",
+        url: "Colors/blue-dark",
         alt: "dark blue square",
       },
     ],
@@ -105,7 +105,7 @@ export const CARD_DATA = [
     description: "hover over each...",
     images: [
       {
-        url: "blue-dark",
+        url: "Colors/blue-dark",
         alt: "dark blue square",
       },
     ],
@@ -118,7 +118,7 @@ export const CARD_DATA = [
     description: "hover over each...",
     images: [
       {
-        url: "blue-dark",
+        url: "Colors/blue-dark",
         alt: "dark blue square",
       },
     ],
@@ -131,7 +131,7 @@ export const CARD_DATA = [
     description: "hover over each...",
     images: [
       {
-        url: "blue-dark",
+        url: "Colors/blue-dark",
         alt: "dark blue square",
       },
     ],
@@ -144,7 +144,7 @@ export const CARD_DATA = [
     description: "hover over each...",
     images: [
       {
-        url: "blue-dark",
+        url: "Colors/blue-dark",
         alt: "dark blue square",
       },
     ],
@@ -157,7 +157,7 @@ export const CARD_DATA = [
     description: "hover over each...",
     images: [
       {
-        url: "blue-dark",
+        url: "Colors/blue-dark",
         alt: "dark blue square",
       },
     ],
@@ -170,7 +170,7 @@ export const CARD_DATA = [
     description: "hover over each...",
     images: [
       {
-        url: "blue-dark",
+        url: "Colors/blue-dark",
         alt: "dark blue square",
       },
     ],
@@ -183,7 +183,7 @@ export const CARD_DATA = [
     description: "hover over each...",
     images: [
       {
-        url: "blue-dark",
+        url: "Colors/blue-dark",
         alt: "dark blue square",
       },
     ],
@@ -196,7 +196,7 @@ export const CARD_DATA = [
     description: "hover over each...",
     images: [
       {
-        url: "blue-dark",
+        url: "Colors/blue-dark",
         alt: "dark blue square",
       },
     ],
@@ -209,7 +209,7 @@ export const CARD_DATA = [
     description: "hover over each...",
     images: [
       {
-        url: "blue-dark",
+        url: "Colors/blue-dark",
         alt: "dark blue square",
       },
     ],
@@ -222,7 +222,7 @@ export const CARD_DATA = [
     description: "hover over each...",
     images: [
       {
-        url: "blue-dark",
+        url: "Colors/blue-dark",
         alt: "dark blue square",
       },
     ],
@@ -235,7 +235,7 @@ export const CARD_DATA = [
     description: "hover over each...",
     images: [
       {
-        url: "blue-dark",
+        url: "Colors/blue-dark",
         alt: "dark blue square",
       },
     ],
@@ -248,7 +248,7 @@ export const CARD_DATA = [
     description: "hover over each...",
     images: [
       {
-        url: "blue-dark",
+        url: "Colors/blue-dark",
         alt: "dark blue square",
       },
     ],
@@ -261,7 +261,7 @@ export const CARD_DATA = [
     description: "hover over each...",
     images: [
       {
-        url: "blue-dark",
+        url: "Colors/blue-dark",
         alt: "dark blue square",
       },
     ],
@@ -274,7 +274,7 @@ export const CARD_DATA = [
     description: "hover over each...",
     images: [
       {
-        url: "blue-dark",
+        url: "Colors/blue-dark",
         alt: "dark blue square",
       },
     ],
