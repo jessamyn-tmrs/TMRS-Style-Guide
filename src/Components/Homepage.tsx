@@ -4,9 +4,7 @@ import Sidebar from './Sidebar';
 import Cards from './Cards';
 // import Scrollbar from './Scrollbar';
 
-type Props = {}
-
-const Homepage = (props: Props) => {
+const Homepage = () => {
     // const [backgroundColor, setBackgroundColor] = useState("white");
 
     // const handleScroll = (event: any) => {

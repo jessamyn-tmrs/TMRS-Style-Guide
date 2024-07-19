@@ -1,11 +1,10 @@
 import logo from "../Assets/tmrs-logo.svg";
 
-type Props = {}
 const home: string = "/";
 const basics: string = "/basics";
 const components: string = "/components";
 
-const Navbar = (props: Props) => {
+const Navbar = () => {
     return (
         <div className='navbar'>
             <ul className='navbar_list'>

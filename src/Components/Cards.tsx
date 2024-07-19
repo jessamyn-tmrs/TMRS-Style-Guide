@@ -1,8 +1,6 @@
 import Card from './Card'
 
-type Props = {}
-
-const Cards = (props: Props) => {
+const Cards = () => {
     return (
         <div className='cards'>
             < Card />

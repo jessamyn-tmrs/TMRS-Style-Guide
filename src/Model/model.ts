@@ -1,5 +1,4 @@
 import { z } from "zod";
-import SectionCard from "../Components/Card";
 
 export const section = z.object({
   id: z.number(),

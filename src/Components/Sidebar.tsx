@@ -1,6 +1,6 @@
 import { CARD_DATA } from '../Data/cardData';
-type Props = {}
-const Sidebar = (props: Props) => {
+
+const Sidebar = () => {
     return (
         <div className='sidebar'>
             <ul>
